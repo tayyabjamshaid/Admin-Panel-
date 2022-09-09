@@ -1,0 +1,14 @@
+#standard-bare{
+    color: wheat;
+}
+.MuiSvgIcon-root{
+    color:wheat;
+}
+#removeCircle[class*="Mui"]:focus {
+     outline: none !important;
+     
+ }
+ .MuiOutlinedInput-adornedEnd {
+    
+     padding-right: 0px !important;
+ }

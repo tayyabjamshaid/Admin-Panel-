@@ -1,0 +1,70 @@
+.modalImage{
+    width: 140px;
+            height: 130px;
+            object-fit: cover;
+            
+            margin: 6px 4px;
+}
+.lightbox {
+    /* Default to hidden */
+    display: none;
+
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* A bit of padding around image */
+    padding: 1em;
+
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+    display: block;
+}
+
+.lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+a.lightbox-close {
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+div.fade.in.modal {
+    display: flex !important;
+}
+
+.modal-dialog {
+    margin: auto;
+}
+.form-group .form-control{
+    color: wheat;
+}
+.close span{
+    font-size: 34px;
+}

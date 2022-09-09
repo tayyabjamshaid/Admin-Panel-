@@ -1,0 +1,17 @@
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #1e8af8 !important;
+    
+}
+.page-item.active .page-link .visually-hidden {
+   display: none;
+
+}
+
+.page-item .page-link .visually-hidden{
+    display: none;
+}
+.page-item .page-link{
+    padding: 10px 19px;
+}
